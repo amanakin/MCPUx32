@@ -1,0 +1,28 @@
+in ax
+push 1
+push ax
+push 1
+ja func:
+hlt
+
+func:
+call meow:
+pop
+pop
+pop
+out
+hlt
+
+meow:
+pop bx
+pop
+mul
+push ax
+push 1
+sub
+pop ax
+push ax
+push 1
+ja func:
+push bx
+ret
