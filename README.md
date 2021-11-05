@@ -8,8 +8,8 @@
 
  Also we can convert `exe.bin` > `dsm` > `table.txt` which will contain the type and purpose of each byte of the code
 
-* [cpu](https://github.com/MoonXCode/MCPUx32/tree/main/scr/cpu) the file contains the processor core and functions for executing byte code that is generated using the library asm.h.
-* [stack](https://github.com/MoonXCode/MCPUx32/tree/main/scr/stack)
+...[cpu](https://github.com/MoonXCode/MCPUx32/tree/main/scr/cpu) the file contains the processor core and functions for executing byte code that is generated using the library asm.h.
+...[stack](https://github.com/MoonXCode/MCPUx32/tree/main/scr/stack)
 ...[asm](https://github.com/MoonXCode/MCPUx32/tree/main/scr/asm)
-⋅⋅⋅[dsm](https://github.com/MoonXCode/MCPUx32/tree/main/scr/dsm) 
-⋅⋅⋅[progs](https://github.com/MoonXCode/MCPUx32/tree/main/scr/PROGS)
+...[dsm](https://github.com/MoonXCode/MCPUx32/tree/main/scr/dsm) 
+...[progs](https://github.com/MoonXCode/MCPUx32/tree/main/scr/PROGS)
