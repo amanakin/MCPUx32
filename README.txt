@@ -18,7 +18,8 @@ DSM  [https://github.com/MoonXCode/MCPUx32/tree/main/scr/dsm]
 -----------------------------------------------
 The disassembler turns a binary file into a table that carries information about the entire program as a whole. From this table, you can understand what the program was written about and what its essence is. In addition, the disassembler can make a program history table, that is, a table of the history of actions.
 
-все значения хранятся либо в стеке [https://github.com/MoonXCode/MCPUx32/tree/main/scr/stack] либо в оперативной памяти процессора
+все значения хранятся либо в стеке [https://github.com/MoonXCode/MCPUx32/tree/main/scr/stack]
+либо в оперативной памяти процессора
 
 
 I want to finish:
