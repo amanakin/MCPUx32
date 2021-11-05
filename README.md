@@ -1,6 +1,6 @@
 #### MCPUx32 - 4th project within the framework of the Dedinsky course
 
-description
+asm
 ---
 <sub>
 the project works in three stages:
@@ -8,6 +8,7 @@ first, the assembler converts the text of a program written in a special DSL lan
  
  then the processor gets down to business, which reads bytes of 4 pieces and executes the code that is contained in the binary file. The processor implements jumps commands (all different conditions a _ b, where "_" is any sign from \[==, <,>, <=,> =\] the processor stores values in the stack and in RAM, to which it can contact at any time of program execution. <sub>  
  
+ proc
 ---
 my first project which contains over 1000 lines of code, this project used multiple folders scr/: {[cpu](https://github.com/MoonXCode/MCPUx32/tree/main/scr/cpu), [stack](https://github.com/MoonXCode/MCPUx32/tree/main/scr/stack), [asm](https://github.com/MoonXCode/MCPUx32/tree/main/scr/asm), [dsm](https://github.com/MoonXCode/MCPUx32/tree/main/scr/dsm), [progs](https://github.com/MoonXCode/MCPUx32/tree/main/scr/PROGS)}; [log](https://github.com/MoonXCode/MCPUx32/tree/main/log).
  
