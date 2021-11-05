@@ -1,0 +1,87 @@
+db "QUADRO"
+
+main:
+	in ax
+	in bx
+	in cx
+	push ax
+	push 0
+	je LOL:
+	push bx
+	push bx
+	mul
+	push 4
+	push ax
+	push cx
+	mul
+	mul
+	sub
+	push 0
+	je DIS:
+	jb NOR:
+	pop
+	sqrt
+	pop dx
+	call fr:
+	call sr:
+hlt
+
+fr:
+	push bx
+	push -1
+	mul
+	push dx
+	add
+	push 2
+	div
+	push ax
+	div
+	db "root one:"
+	out
+ret
+
+sr:
+	push bx
+	push -1
+	mul
+	push dx
+	sub
+	push 2
+	div
+	push ax
+	div
+	push ex
+	db "root two:"
+	out
+ret
+
+LOL:
+	db "ONE ROOT A == 0"
+	pop
+	pop
+	push cx
+	push -1
+	mul
+	push bx
+	div
+	db "root:"
+	out
+hlt
+
+NOR:
+	db "NO ROOTS DISKRIM < 0"
+hlt
+
+DIS:
+	db "ONE DISKRIM = 0"
+	pop
+	push bx
+	push -1
+	mul
+	push 2
+	div
+	push ax
+	div
+	db "root:"
+	out
+hlt
