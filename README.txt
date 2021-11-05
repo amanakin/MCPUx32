@@ -4,6 +4,8 @@
 
 this is my first project with over a thousand lines. I changed the code-style a little again, twice per project, now I am still planning to slightly change the case of the first letters [possibly].
 
+Autor: Michael Krapchatov
+
 The project works in three stages
 
 ASM  [https://github.com/MoonXCode/MCPUx32/tree/main/scr/asm]
