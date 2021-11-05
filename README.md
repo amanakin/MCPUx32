@@ -1,8 +1,8 @@
 #### MCPUx32 - 4th project within the framework of the Dedinsky course<br/>
 
 ###### this is my first project with over a thousand lines. I changed the code-style a little again, twice per project, now I am still planning to slightly change the case of the first letters (possibly).<br/>
-<br/>
-the project works in three stages   
+
+the project works in three stages<br/>   
  ------  
 asm
 ###### first, he assembler converts the text of a program written in a special DSL language and encodes each word of the program with a bytecode, which is specified in DEF_COMMANDS.sh. Comments, [db command] are encoded character by character and if the string is not multiple of four, for example, 3 characters, then the size is rounded up to a multiple of four and written to the output file. 
