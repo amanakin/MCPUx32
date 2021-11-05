@@ -1,6 +1,6 @@
 ##### MCPUx32
 
-:(\--------------------------------------  
+\--------------------------------------  
 ##### CPU PROJECT <3.0.1>
 \--------------------------------------  
 
@@ -16,6 +16,6 @@
 *[stack](https://github.com/MoonXCode/MCPUx32/tree/main/scr/stack)
 *[asm](https://github.com/MoonXCode/MCPUx32/tree/main/scr/asm)
 *[dsm](https://github.com/MoonXCode/MCPUx32/tree/main/scr/dsm) 
-*[progs](https://github.com/MoonXCode/MCPUx32/tree/main/scr/PROGS) )
+*[progs](https://github.com/MoonXCode/MCPUx32/tree/main/scr/PROGS)
  
  <sub>
