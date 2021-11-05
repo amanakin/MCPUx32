@@ -8,6 +8,8 @@
 
 <sub>my first project which contains over 1000 lines of code, this project used multiple folders scr/: {[cpu](https://github.com/MoonXCode/MCPUx32/tree/main/scr/cpu), [stack](https://github.com/MoonXCode/MCPUx32/tree/main/scr/stack), [asm](https://github.com/MoonXCode/MCPUx32/tree/main/scr/asm), [dsm](https://github.com/MoonXCode/MCPUx32/tree/main/scr/dsm), [progs](https://github.com/MoonXCode/MCPUx32/tree/main/scr/PROGS)}; [log](https://github.com/MoonXCode/MCPUx32/tree/main/log).<sub>
  
+ Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать типографику в деле.
+ 
   <sub>The processor works in the following order `algorithm.txt` > `asm` > `exe.bin` > `proc` > `result` <sub>
 
   <sub>Also we can convert `exe.bin` > `dsm` > `table.txt` which will contain the type and purpose of each byte of the code <sub>
