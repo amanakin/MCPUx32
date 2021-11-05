@@ -5,6 +5,9 @@
 \----------------------------------------------  
 
  4th project within the framework of the Dedinsky course
+ 
+the project works in three stages:
+  first, the assembler converts the text of a program written in a special DSL language and encodes each word of the program with a bytecode, which is specified in DEF_COMMANDS.sh. Comments, (db command) are encoded character by character and if the string is not multiple of four, for example, 3 characters, then the size is rounded up to a multiple of four and written to the output file.
 
 my first project which contains over 1000 lines of code, this project used multiple folders scr/: {[cpu](https://github.com/MoonXCode/MCPUx32/tree/main/scr/cpu), [stack](https://github.com/MoonXCode/MCPUx32/tree/main/scr/stack), [asm](https://github.com/MoonXCode/MCPUx32/tree/main/scr/asm), [dsm](https://github.com/MoonXCode/MCPUx32/tree/main/scr/dsm), [progs](https://github.com/MoonXCode/MCPUx32/tree/main/scr/PROGS)}; [log](https://github.com/MoonXCode/MCPUx32/tree/main/log).
  
@@ -12,7 +15,7 @@ my first project which contains over 1000 lines of code, this project used multi
 
   <sub>Also we can convert `exe.bin` > `dsm` > `table.txt` which will contain the type and purpose of each byte of the code <sub>
 
-* [cpu](https://github.com/MoonXCode/MCPUx32/tree/main/scr/cpu)   the file contains the processor core and functions for executing byte code that is generated using the library asm.h.
+* [cpu](https://github.com/MoonXCode/MCPUx32/tree/main/scr/cpu) the file contains the processor core and functions for executing byte code that is generated using the library asm.h.
 * [stack](https://github.com/MoonXCode/MCPUx32/tree/main/scr/stack)
 * [asm](https://github.com/MoonXCode/MCPUx32/tree/main/scr/asm)
 * [dsm](https://github.com/MoonXCode/MCPUx32/tree/main/scr/dsm) 
