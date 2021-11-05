@@ -2,10 +2,10 @@
 
 ###### this is my first project with over a thousand lines. I changed the code-style a little again, twice per project, now I am still planning to slightly change the case of the first letters (possibly).<br/>
 
-the project works in three stages<br/>   
+the project works in three stages   
  ------  
 asm
-###### first, he assembler converts the text of a program written in a special DSL language and encodes each word of the program with a bytecode, which is specified in DEF_COMMANDS.sh. Comments, [db command] are encoded character by character and if the string is not multiple of four, for example, 3 characters, then the size is rounded up to a multiple of four and written to the output file. 
+###### <br/>first, he assembler converts the text of a program written in a special DSL language and encodes each word of the program with a bytecode, which is specified in DEF_COMMANDS.sh. Comments, [db command] are encoded character by character and if the string is not multiple of four, for example, 3 characters, then the size is rounded up to a multiple of four and written to the output file. 
  -------  
 proc  
 ###### then the processor gets down to business, which reads bytes of 4 pieces and executes the code that is contained in the binary file. The processor implements jumps commands (all different conditions a _ b, where "_" is any sign from \[==, <,>, <=,> =\] the processor stores values in the stack and in RAM, to which it can contact at any time of program execution.  
