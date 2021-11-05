@@ -1,4 +1,10 @@
-##### MCPUx32 CPU PROJECT <3.0.1> 
+##### MCPUx32
+
+\--------------------------------------
+
+##### CPU PROJECT <3.0.1>
+
+\--------------------------------------
 
  4th project within the framework of the Dedinsky course
 
