@@ -4,7 +4,8 @@
 
 this is my first project with over a thousand lines. I changed the code-style a little again, twice per project, now I am still planning to slightly change the case of the first letters [possibly].
 
-Autor: (Michael Krapchatov) 11.2021
+Autor: (Michael Krapchatov) 11.2021                                        I will be glad if you write to me Issue
+
 
 The project works in three stages
 
